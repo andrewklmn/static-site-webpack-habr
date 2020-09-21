@@ -1,9 +1,9 @@
 $font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
 
-@import "~bootstrap/scss/bootstrap";
+/*@import "~bootstrap/scss/bootstrap";*/
 
 @font-face {
-  font-family: "Roboto";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/Roboto-Regular.ttf);
@@ -11,12 +11,127 @@ $font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica 
 
 body {
   font-family: $font-stack;
-  #logo {
-    width: 10rem;
-  }
-  .container {
-    img {
-      width: 20rem;
+}
+
+
+.wrapper {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr); 
+} 
+.box { 
+    border: solid thin black;
+}
+
+.header { 
+    grid-column-start: 1; 
+    grid-column-end: 13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 110px;
+}
+.hero { 
+    grid-column-start: 1; 
+    grid-column-end: 13;
+    height: 660px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    background-image: url(../img/hero@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.logo { 
+    grid-column-start: 1; 
+    grid-column-end: 7; 
+}
+.menu { 
+    grid-column-start: 7; 
+    grid-column-end: 13; 
+}
+
+.text { 
+    height: 550px;
+    grid-column-start: 1; 
+    grid-column-end: 6;
+    color: white;
+    
+    h1 {
+       font-weight: bold;
+       font-size: 46px;
+       text-shadow: #733f21 3px 3px;
+       overflow-wrap: normal;
+       white-space: nowrap; 
     }
-  }
+    p {
+        font-size: 18px;
+        line-height: 200%;
+        text-shadow: #733f21 2px 2px;
+    }
+    button {
+        margin-top: 30px;
+        width: 285px;
+        height: 70px;
+        font-size: 24px;
+        background-color: #e1aa6e;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        box-shadow: #ba8e5b 0px 10px;
+    }
+    div.underline {
+        margin-left: 210px; 
+        width: 100px;
+        height: 5px;
+        background-color: #00b5d2;
+    }
+}
+
+div.centered {
+    width: 80%;
+    height: 550px;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left:10%;
+    padding-right: 10%;
+    overflow-x: visible;
+};
+
+.partners { 
+    height: 100px;
+    grid-column-start: 1; 
+    grid-column-end: 13; 
+}
+
+.age{
+    height: 500px;
+    grid-column-start: 1; 
+    grid-column-end: 13;
+}
+
+.mbips{
+    height: 361px;
+    grid-column-start: 1; 
+    grid-column-end: 13;
+}
+
+.inhome{
+    height: 712px;
+    grid-column-start: 1; 
+    grid-column-end: 13;
+}
+
+.jointeam{
+    height: 440px;
+    grid-column-start: 1; 
+    grid-column-end: 13;
+}
+
+.footer{
+    height: 464px;
+    grid-column-start: 1; 
+    grid-column-end: 13;
 }

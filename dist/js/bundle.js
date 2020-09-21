@@ -13649,10 +13649,10 @@ __webpack_require__.r(__webpack_exports__);
 // bootstrap disabled
 //import bootstrap from "bootstrap";
 
-console.log('It is index.jpg');
+//console.log('It is index.jpg');
 
-jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").css("color", "blue");
-jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").css("background-color", "lightblue");
+//$("body").css("color", "blue");
+//$("body").css("background-color", "lightblue");
 
 
 /***/ }),
