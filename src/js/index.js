@@ -1,7 +1,10 @@
-import jQuery from "jquery";
+import $ from "jquery";
 import popper from "popper.js";
-import bootstrap from "bootstrap";
 
-jQuery(function() {
-  jQuery("body").css("color", "blue");
-});
+// bootstrap disabled
+//import bootstrap from "bootstrap";
+
+console.log('It is index.jpg');
+
+$("body").css("color", "blue");
+$("body").css("background-color", "lightblue");
