@@ -1,16 +1,11 @@
-$font-stack: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+$font-stack: 'Lato', sans-serif;
 
-/*@import "~bootstrap/scss/bootstrap";*/
-
-@font-face {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/Roboto-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap');
 
 body {
   font-family: $font-stack;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -18,9 +13,11 @@ body {
     width: 100%;
     display: grid; 
     grid-template-columns: repeat(12, 1fr); 
+    margin: 0px;
+    padding: 0px;
 } 
 .box { 
-    border: solid thin black;
+    /* border: solid thin black; */
 }
 
 .header { 
@@ -44,10 +41,36 @@ body {
 .logo { 
     grid-column-start: 1; 
     grid-column-end: 7; 
+    text-align: left;
+    padding-left:8%;
+    padding-top: 40px;
+    img {
+        
+    }
 }
 .menu { 
     grid-column-start: 7; 
     grid-column-end: 13; 
+    font-size: 16px;
+    text-align: right;
+    padding-right:8%;    
+    padding-top: 20px;
+       
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    a {
+        color: black;
+        margin: 20px;
+        padding-bottom: 40px;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color:white;
+    }
 }
 
 .text { 
@@ -57,14 +80,16 @@ body {
     color: white;
     
     h1 {
-       font-weight: bold;
-       font-size: 46px;
+       font-weight: 900;
+       font-size: 50px;
        text-shadow: #733f21 3px 3px;
        overflow-wrap: normal;
-       white-space: nowrap; 
+       white-space: nowrap;
+       margin-top: 0px;
+       margin-bottom: 20px;
     }
     p {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 200%;
         text-shadow: #733f21 2px 2px;
     }
@@ -78,15 +103,32 @@ body {
         color: white;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
+        
         box-shadow: #ba8e5b 0px 10px;
     }
-    div.underline {
-        margin-left: 210px; 
+    button:hover {
+        background-color: #d19a5e;      
+    }
+    button:active {
+        background-color: #d19a5e;
+        box-shadow: #aa7e4b 0px 6px;
+        transform: translateY(4px);
+    }
+}
+
+div.underline {
+        margin-left: 185px; 
         width: 100px;
         height: 5px;
         background-color: #00b5d2;
-    }
+}
+
+div#up_menu_underline {
+    width: 90px;
+    height: 5px;
+    background-color: #00b5d2;
+    display:none;
+    position:absolute;
 }
 
 div.centered {

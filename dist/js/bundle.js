@@ -13649,11 +13649,23 @@ __webpack_require__.r(__webpack_exports__);
 // bootstrap disabled
 //import bootstrap from "bootstrap";
 
-//console.log('It is index.jpg');
+jquery__WEBPACK_IMPORTED_MODULE_0___default()("button#help").click(function(){
+    window.location.href = 'https://www.google.com';
+});
 
-//$("body").css("color", "blue");
-//$("body").css("background-color", "lightblue");
+jquery__WEBPACK_IMPORTED_MODULE_0___default()('a.up_menu').mouseover(function(e){
+    let p = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).position();
+    let width = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).css('width');
+    let elem = jquery__WEBPACK_IMPORTED_MODULE_0___default()('div#up_menu_underline');
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(elem).css('left',p.left + 20);
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(elem).css('top',p.top + 50);
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(elem).css('width', width );
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(elem).css('display','block');
+});
 
+jquery__WEBPACK_IMPORTED_MODULE_0___default()('a.up_menu').mouseout(function(e){
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('div#up_menu_underline').css('display','none');
+});
 
 /***/ }),
 
