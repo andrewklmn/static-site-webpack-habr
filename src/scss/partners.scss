@@ -1,0 +1,15 @@
+.partners { 
+    height: 100px;
+    grid-column-start: 1; 
+    grid-column-end: 13; 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+        
+    img{
+        width: 12%;
+        height: auto;
+        align-self: center;
+    }
+}

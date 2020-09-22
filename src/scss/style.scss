@@ -1,6 +1,7 @@
 $font-stack: 'Lato', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap');
+@import "partners.scss";
 
 body {
   font-family: $font-stack;
@@ -141,12 +142,6 @@ div.centered {
     padding-right: 10%;
     overflow-x: visible;
 };
-
-.partners { 
-    height: 100px;
-    grid-column-start: 1; 
-    grid-column-end: 13; 
-}
 
 .age{
     height: 500px;
