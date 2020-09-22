@@ -1,0 +1,27 @@
+.about_us{
+    grid-column-start: 1; 
+    grid-column-end: 13;
+    color: white;
+    text-align: center;
+    background-color: #00b5d2;
+    padding: 0px;
+    h1 {
+        padding-top: 75px;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    p {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    div.align_bottom {
+        padding-top: 30px;
+        vertical-align: bottom;
+        position: relative;
+        bottom: -5px;
+        img{
+            padding: 0px;
+            width:80%;
+        }
+    }
+}

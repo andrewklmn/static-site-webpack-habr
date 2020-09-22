@@ -12,6 +12,29 @@
     height: auto;
     align-self: center; }
 
+.about_us {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  color: white;
+  text-align: center;
+  background-color: #00b5d2;
+  padding: 0px; }
+  .about_us h1 {
+    padding-top: 75px;
+    font-weight: 900;
+    font-size: 50px; }
+  .about_us p {
+    padding-top: 10px;
+    font-size: 17px; }
+  .about_us div.align_bottom {
+    padding-top: 30px;
+    vertical-align: bottom;
+    position: relative;
+    bottom: -5px; }
+    .about_us div.align_bottom img {
+      padding: 0px;
+      width: 80%; }
+
 body {
   font-family: "Lato", sans-serif;
   margin: 0px;
@@ -127,11 +150,6 @@ div.centered {
   padding-left: 10%;
   padding-right: 10%;
   overflow-x: visible; }
-
-.age {
-  height: 500px;
-  grid-column-start: 1;
-  grid-column-end: 13; }
 
 .mbips {
   height: 361px;
