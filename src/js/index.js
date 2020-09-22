@@ -27,6 +27,10 @@ $(document).ready(function(){
         window.location.href = 'https://www.google.com';
     });
     
+    $("button#join_button").click(function(){
+        window.location.href = 'https://www.google.com';
+    });
+    
     $('.fade').slick({
           dots: false,
           arrows: false,

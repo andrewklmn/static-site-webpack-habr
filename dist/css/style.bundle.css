@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap);
 /* Slider */
 .slick-slider
 {
@@ -428,6 +428,77 @@
       height: auto;
       border: solid white 8px;
       box-sizing: border-box; }
+
+.join_team {
+  background-color: #367ab7;
+  color: white;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  box-sizing: border-box; }
+  .join_team div.join_photo {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; }
+    .join_team div.join_photo img {
+      width: 100%;
+      height: 100%;
+      min-width: 400px;
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box; }
+  .join_team div.text_block {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    width: 40%;
+    margin: 30px; }
+    .join_team div.text_block p.text1 {
+      font-weight: 400;
+      font-style: italic;
+      font-size: 18px;
+      margin: 0px; }
+    .join_team div.text_block h1 {
+      padding-top: 30px;
+      font-weight: 900;
+      font-size: 50px;
+      margin: 0px; }
+    .join_team div.text_block div.underline_join {
+      margin-top: 10px;
+      margin-left: 205px;
+      width: 120px;
+      height: 5px;
+      background-color: #00b5d2; }
+    .join_team div.text_block p.text2 {
+      padding-top: 10px;
+      font-weight: 400;
+      font-size: 18px;
+      margin: 0px;
+      line-height: 1.5; }
+    .join_team div.text_block button {
+      margin-top: 40px;
+      width: 325px;
+      height: 70px;
+      font-size: 24px;
+      background-color: #00b5d2;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: #008ea5 0px 10px; }
+    .join_team div.text_block button:hover {
+      background-color: #00a5c2; }
+    .join_team div.text_block button:active {
+      background-color: #00a5c2;
+      box-shadow: #008ea5 0px 6px;
+      transform: translateY(4px); }
 
 body {
   font-family: "Lato", sans-serif;

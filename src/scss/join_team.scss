@@ -1,10 +1,96 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 22, 2020, 9:19:32 PM
-    Author     : user
-*/
+
+.join_team {
+    background-color: #367ab7;
+    color:  white;
+    width:100%;
+    
+    padding: 0px;
+    margin: 0px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    box-sizing: border-box;
+    
+    div.join_photo {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+        width:60%;
+        
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        
+        img{
+            width:100%;
+            height: 100%;
+            min-width: 400px;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+    }
+    div.text_block{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+        width:40%;
+        margin: 30px;
+        
+        p.text1 {
+            font-weight: 400;
+            font-style: italic;
+            font-size: 18px;
+            margin: 0px;
+        }
+        
+        h1 {
+            padding-top: 30px;
+            font-weight: 900;
+            font-size: $header-font-size;
+            margin: 0px;
+        }
+        
+        div.underline_join {
+            margin-top: 10px;
+            margin-left: 205px; 
+            width: 120px;
+            height: 5px;
+            background-color: #00b5d2;
+        }  
+        
+        p.text2 {
+            padding-top: 10px;
+            font-weight: 400;
+            font-size: 18px;
+            margin: 0px;
+            line-height: 1.5;
+            
+        }
+        
+        button {
+            margin-top: 40px;
+            width: 325px;
+            height: 70px;
+            font-size: 24px;
+            background-color: #00b5d2;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+
+            box-shadow: #008ea5 0px 10px;
+        }
+        button:hover {
+            background-color: #00a5c2;      
+        }
+        button:active {
+            background-color: #00a5c2;
+            box-shadow: #008ea5 0px 6px;
+            transform: translateY(4px);
+        }
+
+    }
+}
 
