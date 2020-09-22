@@ -96,6 +96,10 @@ const config = {
     new CopyPlugin({
       patterns: [
         {
+          from: "./src/scss/fonts",
+          to: "./css/fonts",
+        },
+        {
           from: "./src/fonts",
           to: "./fonts",
         },

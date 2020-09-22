@@ -1,8 +1,7 @@
 import $ from "jquery";
-import popper from "popper.js";
+window.$ = window.jQuery = $;
+import 'slick-carousel';
 
-// bootstrap disabled
-//import bootstrap from "bootstrap";
 
 $(document).ready(function(){
    
@@ -27,5 +26,19 @@ $(document).ready(function(){
     $("button#contact_us").click(function(){
         window.location.href = 'https://www.google.com';
     });
+    
+    $('.fade').slick({
+          dots: false,
+          arrows: false,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+	  fade:true,
+          autoplay: true,
+          speed: 500,
+          cssEase: 'linear',
+          pauseOnHover:false
+     });
+     
     
 });

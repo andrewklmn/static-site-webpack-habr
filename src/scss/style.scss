@@ -4,6 +4,10 @@ $font-stack: 'Lato', sans-serif;
 @import "partners.scss";
 @import "about_us.scss";
 @import "mbis.scss";
+@import "inhome.scss";
+
+@import "slick.css";
+@import "slick-theme.css";
 
 body {
   font-family: $font-stack;
@@ -144,12 +148,6 @@ div.centered {
     padding-right: 10%;
     overflow-x: visible;
 };
-
-.inhome{
-    height: 712px;
-    grid-column-start: 1; 
-    grid-column-end: 13;
-}
 
 .jointeam{
     height: 440px;
