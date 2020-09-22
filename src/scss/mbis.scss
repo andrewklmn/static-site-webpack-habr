@@ -1,0 +1,40 @@
+.mbis{
+    height: 361px;
+    grid-column-start: 1; 
+    grid-column-end: 13;
+    text-align: center;
+    margin: auto;
+    h1 {
+        color: #777777;
+        padding-top: 60px;
+        font-weight: 700;
+    }
+    p{
+        color: black;
+        font-size: 18px;
+        padding-left: 15%;
+        padding-right: 15%;
+        line-height: 2;
+        max-width: 1100px;
+    }
+    button {
+        margin-top: 10px;
+        width: 285px;
+        height: 70px;
+        font-size: 24px;
+        background-color: #e1aa6e;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: #ba8e5b 0px 10px;
+    }
+    button:hover {
+        background-color: #d19a5e;      
+    }
+    button:active {
+        background-color: #d19a5e;
+        box-shadow: #aa7e4b 0px 6px;
+        transform: translateY(4px);
+    }
+}

@@ -25,6 +25,8 @@
     font-size: 50px; }
   .about_us p {
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 17px; }
   .about_us div.align_bottom {
     padding-top: 30px;
@@ -34,6 +36,41 @@
     .about_us div.align_bottom img {
       padding: 0px;
       width: 80%; }
+
+.mbis {
+  height: 361px;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  text-align: center;
+  margin: auto; }
+  .mbis h1 {
+    color: #777777;
+    padding-top: 60px;
+    font-weight: 700; }
+  .mbis p {
+    color: black;
+    font-size: 18px;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 2;
+    max-width: 1100px; }
+  .mbis button {
+    margin-top: 10px;
+    width: 285px;
+    height: 70px;
+    font-size: 24px;
+    background-color: #e1aa6e;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: #ba8e5b 0px 10px; }
+  .mbis button:hover {
+    background-color: #d19a5e; }
+  .mbis button:active {
+    background-color: #d19a5e;
+    box-shadow: #aa7e4b 0px 6px;
+    transform: translateY(4px); }
 
 body {
   font-family: "Lato", sans-serif;
@@ -150,11 +187,6 @@ div.centered {
   padding-left: 10%;
   padding-right: 10%;
   overflow-x: visible; }
-
-.mbips {
-  height: 361px;
-  grid-column-start: 1;
-  grid-column-end: 13; }
 
 .inhome {
   height: 712px;
