@@ -464,7 +464,8 @@
     flex-shrink: 1;
     flex-basis: 0%;
     width: 40%;
-    margin: 30px; }
+    margin: 30px;
+    text-align: left; }
     .join_team div.text_block p.text1 {
       font-weight: 400;
       font-style: italic;
@@ -504,13 +505,13 @@
       background-color: #00a5c2;
       box-shadow: #008ea5 0px 6px;
       transform: translateY(4px); }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 750px) {
       .join_team div.text_block div#underline_join {
         margin-left: 165px;
         width: 90px; }
       .join_team div.text_block button {
         width: 295px; } }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 750px) {
     .join_team h1#h1_join {
       font-size: 40px; } }
 
@@ -522,9 +523,11 @@
     margin-top: 50px;
     border: 2px solid #cccccc;
     margin-bottom: 50px; }
-  .contact li {
-    list-style: none;
-    display: inline-block; }
+  .contact ul {
+    padding: 0px; }
+    .contact ul li {
+      list-style: none;
+      display: inline-block; }
   .contact p {
     margin: 35px; }
   .contact span {
@@ -537,6 +540,11 @@
     font-size: 18px;
     font-weight: 700;
     text-decoration: none; }
+  @media screen and (max-width: 750px) {
+    .contact a.down_menu {
+      margin: 5px;
+      font-size: 14px;
+      font-weight: 900; } }
   .contact p#icons {
     font-family: SocialIcons; }
   .contact p#address {
@@ -567,10 +575,10 @@
 
 div#mobile_menu {
   width: 100%;
-  text-align: center;
+  text-align: right;
   position: absolute;
   left: 0px;
-  top: 60px;
+  top: 65px;
   margin: 0px;
   display: none; }
   div#mobile_menu ul {
