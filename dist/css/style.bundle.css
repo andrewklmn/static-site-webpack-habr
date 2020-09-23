@@ -508,7 +508,7 @@
   background-color: white;
   color: #999999;
   text-align: center; }
-  .contact hr {
+  .contact hr#upper {
     margin-top: 50px;
     border: 2px solid #cccccc;
     margin-bottom: 50px; }
@@ -518,11 +518,11 @@
   .contact p {
     margin: 35px; }
   .contact span {
-    margin: 35px;
-    font-size: 40px;
+    margin: 30px;
+    font-size: 30px;
     cursor: pointer; }
   .contact a.down_menu {
-    margin: 22px;
+    margin: 25px;
     color: #999999;
     font-size: 18px;
     font-weight: 700;
@@ -544,6 +544,16 @@
     text-decoration: none; }
   .contact a:hover {
     color: black; }
+  .contact hr#lower {
+    width: 85%;
+    margin-top: 50px;
+    border: 1px solid #cccccc;
+    margin-bottom: 50px; }
+  .contact p#copyright {
+    font-weight: 700;
+    font-size: 0.8em; }
+  .contact p#p_phone {
+    margin: 0px; }
 
 body {
   font-family: "Lato", sans-serif;
