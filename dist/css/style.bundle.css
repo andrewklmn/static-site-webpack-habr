@@ -327,6 +327,10 @@
 }
 
 
+@font-face {
+  font-family: SocialIcons;
+  src: url("fonts/SocialIcons.otf") format("opentype"); }
+
 .partners {
   height: 100px;
   grid-column-start: 1;
@@ -499,6 +503,47 @@
       background-color: #00a5c2;
       box-shadow: #008ea5 0px 6px;
       transform: translateY(4px); }
+
+.contact {
+  background-color: white;
+  color: #999999;
+  text-align: center; }
+  .contact hr {
+    margin-top: 50px;
+    border: 2px solid #cccccc;
+    margin-bottom: 50px; }
+  .contact li {
+    list-style: none;
+    display: inline-block; }
+  .contact p {
+    margin: 35px; }
+  .contact span {
+    margin: 35px;
+    font-size: 40px;
+    cursor: pointer; }
+  .contact a.down_menu {
+    margin: 22px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none; }
+  .contact p#icons {
+    font-family: SocialIcons; }
+  .contact p#address {
+    font-size: 16px;
+    font-weight: 400; }
+  .contact a#phone {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none; }
+  .contact a#mail {
+    color: #e99c48;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none; }
+  .contact a:hover {
+    color: black; }
 
 body {
   font-family: "Lato", sans-serif;

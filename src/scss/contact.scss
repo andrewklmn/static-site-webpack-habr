@@ -1,0 +1,65 @@
+$space-margin: 35px;
+$normal-font-size: 16px;
+
+.contact {
+    background-color: white; 
+    color: #999999;
+    text-align: center;
+    
+    hr {
+        margin-top: 50px; 
+        border: 2px solid #cccccc;
+        margin-bottom: 50px;
+    }
+    
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    p {
+        margin: $space-margin;
+    }
+    
+    span {
+        margin: $space-margin;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    
+    a.down_menu {
+        margin: 22px;
+        color: #999999;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    p#icons {
+        font-family: SocialIcons;
+    }
+    
+    p#address {
+        font-size: $normal-font-size;
+        font-weight: 400;
+    }
+    
+    a#phone {
+        color: #999999;
+        font-size: $normal-font-size;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
+    a#mail {
+        color: #e99c48;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: black;
+    }
+}
+

@@ -1,4 +1,9 @@
 $font-stack: 'Lato', sans-serif;
+@font-face {
+    font-family: SocialIcons;
+    src: url("fonts/SocialIcons.otf") format("opentype");
+}
+
 $header-font-size: 50px;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
@@ -7,6 +12,7 @@ $header-font-size: 50px;
 @import "mbis.scss";
 @import "inhome.scss";
 @import "join_team.scss";
+@import "contact.scss";
 
 @import "slick.css";
 @import "slick-theme.css";
@@ -64,6 +70,7 @@ body {
     text-align: right;
     padding-right:8%;    
     padding-top: 20px;
+    
        
     li {
         list-style: none;

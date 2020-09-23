@@ -14037,6 +14037,10 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function(){
         window.location.href = 'https://www.google.com';
     });
     
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()("a.social").click(function(){
+        window.location.href = 'https://www.google.com';
+    });
+    
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('.fade').slick({
           dots: false,
           arrows: false,

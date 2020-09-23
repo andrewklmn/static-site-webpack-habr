@@ -31,6 +31,10 @@ $(document).ready(function(){
         window.location.href = 'https://www.google.com';
     });
     
+    $("a.social").click(function(){
+        window.location.href = 'https://www.google.com';
+    });
+    
     $('.fade').slick({
           dots: false,
           arrows: false,

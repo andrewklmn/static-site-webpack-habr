@@ -14,7 +14,7 @@
                 <ul id="header_menu">
                         <li><a class="up_menu" href="#">HOME</a></li>
                         <li><a class="up_menu" href="#about_us">ABOUT US</a></li>
-                        <li><a class="up_menu" href="#contacts">CONTACT</a></li>
+                        <li><a class="up_menu" href="#contact">CONTACT</a></li>
                 </ul>
                 <div id="up_menu_underline"></div>
             </div>
@@ -76,7 +76,7 @@
                 
         </div>
     </div>
-    <div class="box join_team">
+    <div id="join_team" class="box join_team">
         <div class="join_photo">
             <img src="img/join_photo@2x.jpg"/>
         </div>
@@ -95,6 +95,32 @@
             <button id="join_button">FIND WHAT’S AVAILABLE</button>
         </div>
     </div>
-    <div id="contacts" class="box footer">footer</div>
+    <div id="contact" class="contact">
+        <hr/>
+        <div class="down_menu">
+            <ul id="contact_menu">
+                <li><a class="down_menu" href="#">HOME</a></li>
+                <li><a class="down_menu" href="#about_us">ABOUT US</a></li>
+                <li><a class="down_menu" href="#contact">CONTACT</a></li>
+                <li><a class="down_menu" href="#join_team">CAREERS</a></li>
+            </ul>
+            
+            <p id="icons">
+                <a class="social"><span>I</span></a>
+                <a class="social"><span>O</span></a>
+                <a class="social"><span>M</span></a>
+            </p>
+            
+            <p id="address">120 Theresa Ave, American Canyon, CA 94503</p>
+            <p>
+                <a id="phone" href="tel:707.561.0134"> 707.561.0134 </a>
+            </p>
+            <p>
+                <a id="mail" href="mailto:familyresources@mbisinc.com">
+                    familyresources@mbisinc.com
+                </a>
+            </p>
+        </div>
+    </div>
 
 <%= _.template(require('./../includes/footer.html').default)(data) %>
