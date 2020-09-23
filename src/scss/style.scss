@@ -5,6 +5,7 @@ $font-stack: 'Lato', sans-serif;
 }
 
 $header-font-size: 50px;
+$mob-header-font-size: 40px;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 @import "partners.scss";
@@ -13,6 +14,7 @@ $header-font-size: 50px;
 @import "inhome.scss";
 @import "join_team.scss";
 @import "contact.scss";
+@import "mobile_menu.scss";
 
 @import "slick.css";
 @import "slick-theme.css";
@@ -63,6 +65,13 @@ body {
         
     }
 }
+
+   @media screen and (max-width: 700px) {
+       img#logo_image {
+           width:250px;
+       }
+   };
+
 .menu { 
     grid-column-start: 7; 
     grid-column-end: 13; 
@@ -71,10 +80,27 @@ body {
     padding-right:8%;    
     padding-top: 20px;
     
-       
+    .icon {
+        display: none;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .word {
+        display: block;
+    }
+    
     li {
         list-style: none;
         display: inline-block;
+    }
+    
+    @media screen and (max-width: 850px) {
+        .icon {
+            display: block;
+        }
+        .word {
+            display: none;
+        }
     }
     
     a {
@@ -82,6 +108,7 @@ body {
         margin: 20px;
         padding-bottom: 40px;
         text-decoration: none;
+        margin-top: 10px;
     }
     
     a:hover {
@@ -103,7 +130,36 @@ body {
        white-space: nowrap;
        margin-top: 0px;
        margin-bottom: 20px;
+       margin-left: 0px;
+       margin-right: 0px;       
     }
+    
+    div.underline {
+        margin-left: 185px; 
+        width: 100px;
+        height: 5px;
+        background-color: #00b5d2;
+    }
+    
+   @media screen and (max-width: 700px) {
+        h1{
+            font-size: $mob-header-font-size;
+        }
+        .centered {
+            width: 100%;
+            vertical-align: top;
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+        div.underline {
+            margin-left: 145px; 
+            width: 75px;
+        }
+        button#help {
+            margin-top: 80px;
+        }
+    }
+    
     p {
         font-size: 17px;
         line-height: 200%;
@@ -130,13 +186,6 @@ body {
         box-shadow: #aa7e4b 0px 6px;
         transform: translateY(4px);
     }
-}
-
-div.underline {
-        margin-left: 185px; 
-        width: 100px;
-        height: 5px;
-        background-color: #00b5d2;
 }
 
 div#up_menu_underline {
@@ -169,3 +218,5 @@ div.centered {
     grid-column-start: 1; 
     grid-column-end: 13;
 }
+
+

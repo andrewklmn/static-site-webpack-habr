@@ -14041,6 +14041,16 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function(){
         window.location.href = 'https://www.google.com';
     });
     
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()("a#mobile_menu_driver").click(function(){
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()("div#mobile_menu").toggle();
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()('div#up_menu_underline').hide();
+    });
+    
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()("a.mobile_menu").click(function(){
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()("div#mobile_menu").hide();
+    });
+    
+    
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('.fade').slick({
           dots: false,
           arrows: false,

@@ -35,6 +35,16 @@ $(document).ready(function(){
         window.location.href = 'https://www.google.com';
     });
     
+    $("a#mobile_menu_driver").click(function(){
+        $("div#mobile_menu").toggle();
+        $('div#up_menu_underline').hide();
+    });
+    
+    $("a.mobile_menu").click(function(){
+        $("div#mobile_menu").hide();
+    });
+    
+    
     $('.fade').slick({
           dots: false,
           arrows: false,

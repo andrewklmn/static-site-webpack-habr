@@ -17,21 +17,22 @@
         flex-shrink: 1;
         flex-basis: 0%;
         width:60%;
-        
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
         
         img{
             width:100%;
-            height: 100%;
-            min-width: 400px;
+            height: auto;
+            min-width: 300px;
             padding: 0px;
-            margin: 0px;
+            margin-top: auto;
+            margin-bottom: auto;
             box-sizing: border-box;
         }
     }
     div.text_block{
+        
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: 0%;
@@ -52,7 +53,7 @@
             margin: 0px;
         }
         
-        div.underline_join {
+        div#underline_join {
             margin-top: 10px;
             margin-left: 205px; 
             width: 120px;
@@ -90,7 +91,24 @@
             box-shadow: #008ea5 0px 6px;
             transform: translateY(4px);
         }
+        @media screen and (max-width: 700px) {
+    
+            div#underline_join {
+                margin-left: 165px; 
+                width: 90px;
+            }
+            button {
+                width:295px;
+            }
+        }
 
     }
+    @media screen and (max-width: 700px) {
+    
+        h1#h1_join{
+            font-size: $mob-header-font-size;
+        }
+    }
 }
+
 
