@@ -2,6 +2,8 @@ import $ from "jquery";
 window.$ = window.jQuery = $;
 import 'slick-carousel';
 
+import './retina.js';
+
 $(document).ready(function(){
    
     $("button#help").click(function(){
@@ -56,4 +58,5 @@ $(document).ready(function(){
           cssEase: 'linear',
           pauseOnHover:false
      });
+     
 });
