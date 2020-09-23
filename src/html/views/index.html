@@ -1,5 +1,5 @@
 <% var data = {
-  title: "Title | Test project",
+  title: "Andrew's test project",
   author: "Andrew Klmn"
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
@@ -105,6 +105,7 @@
     </div>
     <div id="contact" class="contact">
         <hr id="upper"/>
+<%= _.template(require('./../includes/multi-menu.html').default)(data) %>        
         <div class="down_menu">
             <ul id="contact_menu">
                 <li><a class="down_menu" href="#">HOME</a></li>
@@ -133,5 +134,4 @@
                 Copyright Ⓒ 2017 McGrews Behavior Services All Rights Reserved
             <p/>
     </div>
-
 <%= _.template(require('./../includes/footer.html').default)(data) %>

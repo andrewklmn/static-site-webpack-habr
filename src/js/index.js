@@ -2,7 +2,6 @@ import $ from "jquery";
 window.$ = window.jQuery = $;
 import 'slick-carousel';
 
-
 $(document).ready(function(){
    
     $("button#help").click(function(){
@@ -57,6 +56,4 @@ $(document).ready(function(){
           cssEase: 'linear',
           pauseOnHover:false
      });
-     
-    
 });
