@@ -222,4 +222,13 @@ div.centered {
     grid-column-end: 13;
 }
 
+//<img src="img/join_photo.jpg"/>
 
+div.join_photo {
+    min-width: 250px;
+    background-image: url(../img/join_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+}

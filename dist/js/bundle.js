@@ -14087,6 +14087,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function(){
  * Retina.js is an open source script that makes it easy to serve
  * high-resolution images to devices with retina displays.
  */
+console.log('retina.js was started');
 
 (function() {
     var root = ( false ? undefined : exports);
