@@ -4,6 +4,8 @@ $font-stack: 'Lato', sans-serif;
     src: url("fonts/SocialIcons.otf") format("opentype");
 }
 
+@import 'normalize.css';
+
 $header-font-size: 50px;
 $mob-header-font-size: 40px;
 
@@ -137,12 +139,6 @@ body {
        margin-right: 0px;       
     }
     
-    div.underline {
-        margin-left: 185px; 
-        width: 100px;
-        height: 5px;
-        background-color: #00b5d2;
-    }
     
    @media screen and (max-width: 700px) {
         h1{
@@ -154,10 +150,6 @@ body {
             padding-top: 0px;
             margin-top: 0px;
         }
-        div.underline {
-            margin-left: 145px; 
-            width: 75px;
-        }
         button#help {
             margin-top: 80px;
         }
@@ -167,6 +159,7 @@ body {
         font-size: 17px;
         line-height: 200%;
         text-shadow: #733f21 2px 2px;
+        margin-top: 27px;
     }
     button {
         margin-top: 30px;
@@ -222,8 +215,6 @@ div.centered {
     grid-column-end: 13;
 }
 
-//<img src="img/join_photo.jpg"/>
-
 div.join_photo {
     min-width: 250px;
     background-image: url(../img/join_photo.jpg);
@@ -231,4 +222,9 @@ div.join_photo {
     background-size: cover;
     background-position: center; 
 
+}
+
+.underline {
+    padding-bottom: 17px;
+    border-bottom: 5px solid #00B6D4;
 }

@@ -1,8 +1,11 @@
 import $ from "jquery";
 window.$ = window.jQuery = $;
 import 'slick-carousel';
-
 import './retina.js';
+
+import func_b from './test.js';
+func_b();
+
 
 $(document).ready(function(){
    
